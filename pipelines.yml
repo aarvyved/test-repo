@@ -8,7 +8,7 @@ resources:
     configuration:
       path: bharath92/test-repo
       gitProvider: github
-      branch:
+      branches:
         include: {{gitBranch}}
   {{ end }}
 pipelines:
