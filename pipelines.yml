@@ -7,7 +7,7 @@ resources:
     type: GitRepo
     configuration:
       path: aarvyved/test-repo
-      gitProvider: gitIntegration
+      gitProvider: GitIntegration
       branches:
         include: {{gitBranch}}
   {{ end }}
