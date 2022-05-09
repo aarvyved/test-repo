@@ -6,7 +6,7 @@ resources:
   - name: git{{$i}}
     type: GitRepo
     configuration:
-      path: bharath92/test-repo
+      path: {{ .repoPath }}
       gitProvider: github
       branches:
         include: {{gitBranch}}
